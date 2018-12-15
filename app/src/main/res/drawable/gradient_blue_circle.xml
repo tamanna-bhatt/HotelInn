@@ -1,0 +1,18 @@
+
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item>
+    <shape android:shape="oval">
+        <!--make a gradient background-->
+        <gradient
+            android:type="linear"
+            android:startColor="#56afed"
+            android:endColor="#0256dc"
+            android:angle="180"
+            android:gradientRadius="90"
+            />
+
+        <corners android:radius="150dp"/>
+    </shape>
+</item>
+</selector>

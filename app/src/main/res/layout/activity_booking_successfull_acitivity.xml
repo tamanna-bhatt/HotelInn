@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ws.wolfsoft.hotelinn.BookingSuccessfullAcitivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clipToPadding="false"
+                    android:paddingBottom="10dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="321dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/hotel_room" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="321dp"
+                        android:src="#90000000" />
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_marginLeft="17dp"
+                        android:layout_marginTop="40dp"
+                        android:src="@drawable/ic_back_white" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="80dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_correct" />
+
+                        <customfonts.TextViewSFProDisplayBold
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:gravity="center"
+                            android:text="BOOKING SUCCESSFUL"
+                            android:textColor="@color/white"
+                            android:textSize="15sp" />
+
+                        <customfonts.TextViewSFProDisplayBold
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Booking id  HTN3212"
+                            android:textColor="@color/white"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="250dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="15dp"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                            <customfonts.MyTextView_Roboto_Regular
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="CHECK-IN"
+                                                android:textColor="@color/title_txt"
+                                                android:textSize="11.7sp" />
+
+                                            <customfonts.MyTextView_Roboto_Regular
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="01, JUN 2018"
+                                                android:textColor="@color/black"
+                                                android:textSize="15sp" />
+
+                                            <customfonts.MyTextView_Roboto_Regular
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="12:00 PM"
+                                                android:textColor="@color/sub_txt"
+                                                android:textSize="13.3sp" />
+
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <ImageView
+                                        android:layout_width="15dp"
+                                        android:layout_height="15dp"
+                                        android:layout_gravity="center"
+                                        android:src="@drawable/ic_next_arrow_2" />
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                            <customfonts.MyTextView_Roboto_Regular
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="CHECK-IN"
+                                                android:textColor="@color/title_txt"
+                                                android:textSize="11.7sp" />
+
+                                            <customfonts.MyTextView_Roboto_Regular
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="01, JUN 2018"
+                                                android:textColor="@color/black"
+                                                android:textSize="15sp" />
+
+                                            <customfonts.MyTextView_Roboto_Regular
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:text="12:00 PM"
+                                                android:textColor="@color/sub_txt"
+                                                android:textSize="13.3sp" />
+
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="5dp"
+                                    android:layout_marginTop="15sp"
+                                    android:layerType="software"
+                                    android:src="@drawable/dotted_line" />
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="13dp"
+                                    android:layout_marginTop="13dp"
+
+                                    android:orientation="horizontal">
+
+                                    <customfonts.MyTextView_Roboto_Regular
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="35dp"
+                                        android:layout_weight="1"
+                                        android:text="Classic Room \nwith Pool"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="40dp"
+                                        android:layout_weight="1"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <customfonts.MyTextView_Roboto_Regular
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="1 Room"
+                                            android:textColor="#585d57"
+                                            android:textSize="11.7sp" />
+
+                                        <customfonts.MyTextView_Roboto_Regular
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="2 Guest"
+
+                                            android:textColor="#585d57"
+                                            android:textSize="11.7sp" />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="5dp"
+                                    android:layout_marginTop="5sp"
+                                    android:layerType="software"
+                                    android:src="@drawable/dotted_line" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <customfonts.MyTextView_Roboto_Regular
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="15dp"
+                                        android:gravity="center"
+                                        android:text="Hotel Sunrise"
+                                        android:textColor="@color/black"
+                                        android:textSize="15sp" />
+
+                                    <customfonts.MyTextView_Roboto_Regular
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="10dp"
+                                        android:layout_marginTop="5dp"
+                                        android:gravity="center"
+                                        android:layout_marginRight="70dp"
+                                        android:layout_marginLeft="70dp"
+                                        android:text="329 Clemens Vista, Milton Haven
+Montreal, canada"
+                                        android:textColor="#585d57"
+                                        android:textSize="11.7sp" />
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="5dp"
+                                    android:layout_marginTop="15sp"
+                                    android:layerType="software"
+                                    android:src="@drawable/dotted_line" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="15dp"
+                                    android:layout_marginTop="15sp"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="17dp"
+                                        android:layout_weight="1"
+                                        android:orientation="vertical">
+
+                                        <customfonts.MyTextView_Roboto_Regular
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="GUEST"
+                                            android:textColor="#585d57"
+                                            android:textSize="11.7sp" />
+
+                                        <customfonts.MyTextView_Roboto_Regular
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Mr. John Doe "
+                                            android:textColor="@color/black"
+                                            android:textSize="15sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="17dp"
+
+                                        android:orientation="vertical">
+
+                                        <customfonts.MyTextView_Roboto_Regular
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="right"
+                                            android:gravity="right"
+                                            android:text="PAID"
+                                            android:textColor="#585d57"
+                                            android:textSize="11.7sp" />
+
+                                        <customfonts.MyTextView_Roboto_Medium
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="$472"
+                                            android:textColor="@color/black"
+                                            android:textSize="16.7sp" />
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+
+                </FrameLayout>
+
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <customfonts.Button_SF_Pro_Display_Medium
+                    android:layout_width="70.7dp"
+                    android:layout_height="70.7dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginBottom="10sp"
+                    android:layout_marginRight="10sp"
+                    android:background="@drawable/gradient_rect"
+                    android:text="Done"
+                    android:textColor="@color/white"
+                    android:textSize="13.3sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

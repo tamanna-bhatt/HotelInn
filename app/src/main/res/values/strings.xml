@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Hotel.Inn</string>
+
+    <string name="select">Select Guests &amp; Rooms</string>
+
+    <string name="strike_line"> <strike>$199 </strike> </string>
+    <string name="hotel">Hotel Policies &amp; Rules</string>
+    <string name="terms">I agree to the Terms &amp; Conditions and  Cancellation
+&amp; Hotel Booking Policies</string>
+
+    <string name="rate">Rate &amp; Reivew</string>
+    <string name="child">Max 2 Adutls &amp; 1 Child</string>
+
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="your_mobile_number_will_be_linked_with">Your mobile number will be linked with</string>
+    <string name="rushabhpatel381_gmail_com">rushabhpatel381@gmail.com</string>
+    <string name="_9549990169_will_be_linked_with">9549990169 will be linked with</string>
+
+    <string name="change_phone_number">Change Phone number</string>
+    <string name="resend_otp">Resend OTP</string>
+
+    <string name="qA"><![CDATA[Questions & Answers]]></string>
+    <string name="t_and_c"><![CDATA[Terms & Conditions]]></string>
+    <string name="settings">Settings</string>
+    <string name="refer_earn">Refer and Earn</string>
+    <string name="lgout">Log out</string>
+    <string name="jun_2018">JUN 2018</string>
+    <string name="friday">Friday</string>
+    <string name="rooms">ROOMS</string>
+    <string name="guest">GUEST</string>
+    <string name="search">SEARCH</string>
+    <string name="_3_nights">3 Nights</string>
+    <string name="mon">Mon</string>
+    <string name="done">Done</string>
+    <string name="best_hotel_booking_app">Best Hotel Booking App</string>
+    <string name="check_in">CHECK-IN</string>
+    <string name="question_answers"><![CDATA[Question & Answers]]></string>
+    <string name="get_flat_15_off_on_booking_before_tonight">Get Flat 15% off on booking before tonight.</string>
+
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6f6f6"
+    tools:context="ws.wolfsoft.hotelinn.MyTripActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--Cardview Can be used-->
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="3dp"
+            app:cardBackgroundColor="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/toolbar_guest_rooms" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <!--MyTrip Tablayout-->
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/white"
+            app:tabGravity="center"
+            app:tabIndicatorColor="@color/blue"
+            app:tabIndicatorHeight="3dp"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/black"
+            app:tabTextAppearance="@style/MyMenuTextAppearance1"
+            app:tabTextColor="@color/tab_txt_color" />
+
+
+        <!--Viewpager used-->
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/white">
+
+        </android.support.v4.view.ViewPager>
+
+    </LinearLayout>
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="52.6dp"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        android:elevation="8dp"
+        android:gravity="bottom|end"
+        android:layout_gravity="bottom"
+        app:bb_activeTabColor="#ffffff"
+        app:bb_badgesHideWhenActive="true"
+        app:bb_inActiveTabColor="#a4ebfe"
+        app:bb_showShadow="true"
+        app:bb_tabXmlResource="@xml/tab"
+        app:bb_titleTextAppearance="@style/botoombar_textchange"
+        app:bb_titleTypeFace="fonts/Roboto-Regular.ttf"
+        app:paddingStart="10dp" />
+
+</RelativeLayout>

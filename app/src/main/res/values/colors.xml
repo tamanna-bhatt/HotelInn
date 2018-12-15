@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="backrground">#f6f6f6</color>
+    <color name="title_txt">#8f948d</color>
+    <color name="blue">#0c61de</color>
+    <color name="view_line">#e1e1e1</color>
+    <color name="grey">#dcdcdc</color>
+    <color name="circle_blue">#3492ff</color>
+    <color name="sub_txt">#585d57</color>
+    <color name="inactive">#ececec</color>
+    <color name="active">#ffc317</color>
+    <color name="red">#f32e2e</color>
+    <color name="tab_txt_color">#8e8e8f</color>
+    <color name="dark_grey_color">#585d57</color>
+    <color name="transparent">#00000000</color>
+    <color name="blackTxt">#000200</color>
+    <color name="greyTxt">#8f948d</color>
+    <color name="grey_resend_txt">#818181</color>
+    <color name="tab_unselect_txt">#a9a9aa</color>
+    <color name="tab_select_txt">#26282a</color>
+    <color name="lightblur">#d8eaff</color>
+    <color name="greyCircleColor">#eeeeee</color>
+    <color name="select_datepicker">#4a90e2</color>
+    <color name="fbColor">#2672cb</color>
+    <color name="dark_gray">#000400</color>
+    <color name="sub_txt_gray">#898a8c</color>
+    <color name="bg">#f6f6f6</color>
+</resources>

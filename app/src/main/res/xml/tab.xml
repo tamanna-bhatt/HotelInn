@@ -1,0 +1,37 @@
+<tabs>
+    <tab
+        id="@+id/home"
+        icon="@drawable/ic_home1"
+        activeColor="@color/tab_select_txt"
+        inActiveColor="@color/tab_unselect_txt"
+        title="Home"
+
+        />
+    <tab
+        id="@+id/search"
+        icon="@drawable/ic_my_trip1"
+        activeColor="@color/tab_select_txt"
+        inActiveColor="@color/tab_unselect_txt"
+        title="My Trip"
+
+
+        />
+    <tab
+        id="@+id/tickets"
+        icon="@drawable/ic_notification1"
+        activeColor="@color/tab_select_txt"
+        inActiveColor="@color/tab_unselect_txt"
+        title="Sacn  Pay"
+
+        />
+
+    <tab
+        id="@+id/profile"
+        icon="@drawable/ic_user1"
+        activeColor="@color/tab_select_txt"
+        inActiveColor="@color/tab_unselect_txt"
+        title="Account"
+        />
+
+
+</tabs>

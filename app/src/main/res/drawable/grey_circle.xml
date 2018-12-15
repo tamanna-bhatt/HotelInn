@@ -1,0 +1,13 @@
+
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <!--make a gradient background-->
+           <solid
+               android:color="@color/greyCircleColor"/>
+
+            <corners android:radius="150dp"/>
+        </shape>
+    </item>
+</selector>

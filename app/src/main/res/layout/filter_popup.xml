@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginLeft="16.7dp"
+            android:orientation="horizontal"
+            android:paddingBottom="16.7dp"
+            android:paddingTop="16.7dp"
+            android:layout_marginRight="18.3dp">
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="All Facilities"
+                android:textColor="#000400"
+                android:textSize="15sp" />
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="CLEAR"
+                android:textColor="#8f948d"
+                android:textSize="11.7sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="#e1e1e1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginRight="16.3dp"
+           android:layout_marginLeft="17dp"
+            android:orientation="horizontal"
+            android:paddingBottom="14.3dp"
+            android:paddingTop="14.3dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/wifi" />
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+               android:layout_marginLeft="17.3dp"
+                android:layout_weight="1"
+                android:text="Free Wifi"
+                android:textColor="#585d57"
+                android:textSize="11.7sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginRight="16.3dp"
+           android:layout_marginLeft="17dp"
+            android:orientation="horizontal"
+            android:paddingBottom="14.3dp"
+            android:paddingTop="14.3dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/bar" />
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+               android:layout_marginLeft="17.3dp"
+                android:layout_weight="1"
+                android:text="Open Bar"
+                android:textColor="#585d57"
+                android:textSize="11.7sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginRight="16.3dp"
+           android:layout_marginLeft="17dp"
+            android:orientation="horizontal"
+            android:paddingBottom="14.3dp"
+            android:paddingTop="14.3dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/restaurant" />
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+               android:layout_marginLeft="17.3dp"
+                android:layout_weight="1"
+                android:text="Restaurant"
+                android:textColor="#585d57"
+                android:textSize="11.7sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginRight="16.3dp"
+           android:layout_marginLeft="17dp"
+            android:orientation="horizontal"
+            android:paddingBottom="14.3dp"
+            android:paddingTop="14.3dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/cpmplimentray_breakf" />
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+               android:layout_marginLeft="17.3dp"
+                android:layout_weight="1"
+                android:text="Cpmplimentray Breakfast"
+                android:textColor="#585d57"
+                android:textSize="11.7sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginRight="16.3dp"
+           android:layout_marginLeft="17dp"
+            android:orientation="horizontal"
+            android:paddingBottom="14.3dp"
+            android:paddingTop="14.3dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/laundry_service" />
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+               android:layout_marginLeft="17.3dp"
+                android:layout_weight="1"
+                android:text="Laundry Service"
+                android:textColor="#585d57"
+                android:textSize="11.7sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginRight="16.3dp"
+           android:layout_marginLeft="17dp"
+            android:orientation="horizontal"
+            android:paddingBottom="14.3dp"
+            android:paddingTop="14.3dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/cctv" />
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+               android:layout_marginLeft="17.3dp"
+                android:layout_weight="1"
+                android:text="CCTV"
+                android:textColor="#585d57"
+                android:textSize="11.7sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_marginRight="16.3dp"
+           android:layout_marginLeft="17dp"
+            android:orientation="horizontal"
+            android:paddingBottom="14.3dp"
+            android:paddingTop="14.3dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/elevator" />
+
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+               android:layout_marginLeft="17.3dp"
+                android:layout_weight="1"
+                android:text="Elevator"
+                android:textColor="#585d57"
+                android:textSize="11.7sp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <customfonts.TextViewSFProDisplayRegular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:text="DONE"
+        android:layout_alignParentBottom="true"
+        android:background="#3492ff"
+        android:gravity="center"
+        android:paddingTop="15.3dp"
+        android:paddingBottom="15.3dp"/>
+
+</RelativeLayout>
